@@ -4,11 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./node_modules/animate.css/animate.min.css" />
+    <link rel="stylesheet" href="main.css" />
     <title>Animate CSS</title>
   </head>
   <body>
-    <div id="container"></div>
-    <div id="sidebar"></div>
+    <div id="container">
+      <div id="animated">
+        <h1>Hello</h1>
+        <p>World</p>
+      </div>
+    </div>
+    <div id="sidebar">
+      <ul>
+        <li><a href="#" name="flash" class="trigger">flash</a></li>
+        <li><a href="#" name="bounce" class="trigger">bounce</a></li>
+        <li><a href="#" name="swing" class="trigger">swing</a></li>
+      </ul>
+    </div>
+    <div class="clear"></div>
     <script src="main.js"></script>
   </body>
 </html>
